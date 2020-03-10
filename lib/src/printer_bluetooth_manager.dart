@@ -42,7 +42,7 @@ class PrinterBluetoothManager {
   }
 
   void startScan(Duration timeout) async {
-    _scanResults.add(<PrinterBluetooth>[]);
+    // _scanResults.add(<PrinterBluetooth>[]);
 
     _bluetoothManager.startScan(timeout: Duration(seconds: 4));
 
